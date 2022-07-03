@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-box {
+    background-color: white;
+    border-radius: 25px;
+    border: 3.5px #0083FF solid;
+    padding: 2em;
+    text-align: center;
+
+}
+
+.container-box__head img {
+    border: 3px #0083FF solid;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+
+.btn-abme,
+.btn-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    transition: background-color 0.7s;
+    transition: -webkit-box-shadow, box-shadow .4s;
+    background-color: #0073de;
+    border: none;
+    margin: 5px;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #1d91fd;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.btn-contact {
+    margin-top: 13px;
+}

@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+    margin: 0;
+}
+
+.age-verify{
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.age-verify-box{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.age-verify-box-head{
+    font-size: 16px;
+    text-align: center;
+}
+
+.age-verify-box-content{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px ;
+}
+
+.age-information{
+    color:red;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.box_button{
+    padding: 20px 10px 0;
+}
+
+.btn{
+    transition: border-color, background-color 0.7s;
+    width: 115px;
+    height: 50px;
+    background: transparent;
+    border: 2px #ffe8b6 solid;
+}
+
+.btn:hover{
+    background-color: #d99e82;
+    border-color: #d99e82;
+}
+
+@media(min-width: 495px){
+    .age-verify-box-head{
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 345px){
+    .age-verify-box-head{
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 290px){
+    .age-verify-box-content{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:290px){
+    .age-information{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 290px){
+    .btn{
+        width: 125px;
+        height: 50px;
+    }
+}
+
+.main{
+    display: block;
+}
