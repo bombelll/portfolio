@@ -146,6 +146,7 @@ ul li:hover {
 .logo img {
     border-radius: 50%;
     height: 170px;
+    width: 180px;
     border: 3px #ed4245 solid;
 }
 
