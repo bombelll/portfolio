@@ -1,55 +1,51 @@
-<!DOCTYPE html>
-<html lang="pl">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
     <title>bombel - portfolio</title>
-    <link rel="icon" href="img/icon-html.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div class="main">
-        <div class="container-box">
-            <div class="container-box__head">
-                <img src="img/logo.jpg">
-                <div class="container-box__content">
-                    <div>
-                        <h2 class="header" style="color: #0083FF; text-align:center;">bombel#2137</h2>
-                    </div>
-                    <div class="container-box__btns">
-                        <div class="btn-abme">
-                            <button class="btn">
-                                <a href="subpages/about-me/index.html">
-                                    <span>About me</span>
-                                </a>
-                            </button>
-                            <div class="btn-projects">
-                                <button class="btn">
-                                    <a href="subpages/projects/index.html">
-                                        <span>Projects</span>
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="btn-contact">
-                            <button class="btn">
-                                <a href="subpages/contact/index.html">
-                                    <span>Contact</span>
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<header>
+    <div class="name"><a href="#">bombel</a></div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="subpages/about-me/index.html">About me</a></li>
+            <li><a href="subpages/my-projects/index.html">My projects</a></li>
+            <li class="contact-me__btn"><a href="subpages/contact-me/index.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="subpages/about-me/index.html">About me</a></li>
+            <li><a href="subpages/my-projects/index.html">My projects</a></li>
+            <li class="contact-me__btn"><a href="subpages/contact-me/index.html">Contact me</a></li>
+        </ul>
+    </div>
+</header>
+<div class="main">
+    <div class="logo">
+        <img src="src/logo.gif" alt="Error">
+        <h2><a target="_blank" href="https://discord.com/users/428618348205703179">bombel#2137</a></h2>
+    </div>
+    <div class="container">
+        <h1>Cześć jestem Eryk!</h1>
+        <p>Uczę sie programowania. Celem mojej nauki jest zostanie Web Developerem w przyszłości.</p>
+        <h2>Języki których się uczę:</h2>
+        <div class="icons">
+            <img src="src/html-logo.png" alt="Error" class="icons-height">
+            <img src="src/css-logo.png" alt="Error" class="icons-height">
+            <img src="src/javascript-logo.png" alt="Error" class="icons-height">
         </div>
     </div>
-    </div>
+</div>
+<script src="js/main.js"></script>
 </body>
-
 </html>
