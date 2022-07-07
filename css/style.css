@@ -152,10 +152,13 @@ img {
     height: 50%;
 }
 
-.logo img {
-    border-radius: 50%;
+.logo-img {
     height: 185px;
     width: 190px;
+}
+
+.logo img {
+    border-radius: 50%;
     border: 3px #ed4245 solid;
 }
 
